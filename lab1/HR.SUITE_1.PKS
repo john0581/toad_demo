@@ -1,0 +1,7 @@
+CREATE OR REPLACE EDITIONABLE PACKAGE HR.Suite_1 AS
+    --%suite
+
+    --%test
+    PROCEDURE TEST_1;
+END;
+/
