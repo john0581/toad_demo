@@ -10,7 +10,6 @@ DBMS_OUTPUT.PUT_LINE('{Toad_145528847_1}');
 DBMS_OUTPUT.PUT_LINE('{Toad_145528847_1}[1] p_employee_id = ' || p_employee_id);
 DBMS_OUTPUT.PUT_LINE('{Toad_145528847_1}[1] v_employee_info = ' || v_employee_info);
 -- </Toad_145528847_1>
-    DBMS_LOCK.SLEEP(10);
     SELECT 'First Name: ' || first_name || ', Last Name: ' || last_name ||
            ', Email: ' || email || ', Job ID: ' || job_id
     INTO v_employee_info
